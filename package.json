@@ -1,0 +1,38 @@
+{
+  "name": "strapi-plugin-import-export-content-lts",
+  "version": "0.4.2",
+  "description": "This is a plugin for import and export content of collection types.",
+  "license": "MIT",
+  "strapi": {
+    "name": "Import / Export Content",
+    "icon": "sync-alt",
+    "description": "Import and Export your Content"
+  },
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "dependencies": {
+    "csv-parse": "^4.15.3",
+    "csv-string": "^4.0.1",
+    "prismjs": "^1.23.0",
+    "react-simple-code-editor": "^0.11.0"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepakrb/strapi-plugin-import-export-content-lts.git"
+  },
+  "keywords": [
+    "strapi",
+    "plugin",
+    "strapi",
+    "import",
+    "content",
+    "export",
+    "content"
+  ],
+  "homepage": "https://github.com/deepakrb/strapi-plugin-import-export-content-lts#readme"
+}
