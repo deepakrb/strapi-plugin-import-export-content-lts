@@ -51,6 +51,8 @@ async function getValidMedia(value, attribute, user) {
 }
 
 async function getValidSingleComponent(value, attributes, user) {
+  if (value == null) return null;
+  
   const mappedComponent = {};
   for (const attr in attributes) {
     const element = value[attr];
