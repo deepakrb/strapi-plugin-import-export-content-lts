@@ -3,7 +3,7 @@
     {
       "method": "GET",
       "path": "/",
-      "handler": "import-export-content.index",
+      "handler": "import-export-content-lts.index",
       "config": {
         "policies": []
       }
@@ -11,7 +11,7 @@
     {
       "method": "POST",
       "path": "/pre-analyze",
-      "handler": "import-export-content.preAnalyzeContent",
+      "handler": "import-export-content-lts.preAnalyzeContent",
       "config": {
         "policies": []
       }
@@ -19,7 +19,7 @@
     {
       "method": "POST",
       "path": "/import",
-      "handler": "import-export-content.importItems",
+      "handler": "import-export-content-lts.importItems",
       "config": {
         "policies": []
       }
@@ -27,7 +27,7 @@
     {
       "method": "POST",
       "path": "/export",
-      "handler": "import-export-content.exportItems",
+      "handler": "import-export-content-lts.exportItems",
       "config": {
         "policies": []
       }
