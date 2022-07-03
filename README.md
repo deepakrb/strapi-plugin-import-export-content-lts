@@ -1,7 +1,7 @@
 # Strapi plugin import-export-content LTS
 
 LTS for the Strapi V3 plugin to import and export content according to user permissions in json or csv format.
-Orginally authored by [@EdisonPeM](https://github.com/EdisonPeM/) https://www.npmjs.com/package/strapi-plugin-content-type-builder
+Orginally authored by [@EdisonPeM](https://github.com/EdisonPeM/) https://www.npmjs.com/package/strapi-plugin-import-export-content
 
 ## Installation
 
